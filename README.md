@@ -12,7 +12,7 @@ The paper produces an interpretation method for Deepkriging—a deep learning mo
 
 - **Data**: Directory containing the datasets used in the study.
 - **Figures**: Directory containing figures generated during the analysis.
-- **Notebooks**: Jupyter notebooks used for various stages of the analysis:
+- **src**: Jupyter notebooks and scripts used for various stages of the analysis:
   - `3d_plots.ipynb`: Notebook for generating 3D plots of the results of Deepkriging, and the benchmark methods, and the original data.
   -  `3d_uncert_quant.ipynb`: Notebook for generating the full grid interpolation plots and the uncertainty estimates for each interpolation method in the comparison.
   - `Basis_function_generation_and_comparison.ipynb`: Notebook for generating and comparing Deepkriging's performance with different levels of basis functions.
