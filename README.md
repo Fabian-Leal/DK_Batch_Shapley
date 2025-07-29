@@ -32,3 +32,6 @@ The paper produces an interpretation method for Deepkriging—a deep learning mo
 ## References
 - Chen, W., Li, Y., Reich, B.J., Sun, Y., 2020. Deepkriging: Spatially dependent deep neural networks for spatial prediction. arXiv preprint461
 arXiv:2007.11972 .
+
+## License
+This project is licensed under the [MIT License](LICENSE).
