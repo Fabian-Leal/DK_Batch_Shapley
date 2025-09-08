@@ -6,7 +6,7 @@
 This repository contains the code and data associated with the paper "[Interpreting Deepkriging for Spatial Interpolation in Geostatistics](https://www.sciencedirect.com/science/article/pii/S0098300424003169)".
 
 
-The paper produces an interpretation method for Deepkriging—a deep learning model tailored for geostatistical interpolation problems. The study demonstrates the feasibility of interpreting Deepkriging results using an adaptation of a well established feature attribution method, addressing key challenges of deep neural networks in capturing spatial dependencies and model interpretability.
+The paper produces an interpretation method for Deepkriging, a deep learning model tailored for geostatistical interpolation problems. The study demonstrates the feasibility of interpreting Deepkriging results using an adaptation of a well established feature attribution method, addressing key challenges of deep neural networks in capturing spatial dependencies and model interpretability.
 
 ## Repository Structure
 
@@ -25,7 +25,7 @@ The paper produces an interpretation method for Deepkriging—a deep learning mo
 
 ## Key Features
 
-- **Deepkriging**: A deep neural network architecture designed for spatial interpolation in geostatistics. This model expands the spatial coordinate feature space using basis functions, enabling the network to learn spatial dependencies effectively. It was developed by Chen et al. (2020). See https://arxiv.org/abs/2007.11972.
+- **Deepkriging**: A deep neural network designed for spatial interpolation in geostatistics. This model expands the spatial coordinate feature space using basis functions, enabling the network to learn spatial dependencies effectively. It was developed by Chen et al. (2020). See https://arxiv.org/abs/2007.11972.
 - **Batched Shapley**: An adaptation of Shapley values, a game-theoretic approach used for feature importance, that we developed specifically for interpreting Deepkriging. This method provides insights into the importance of features for each prediction made by a predictive model. In this case, these are density spatial interpolation predictions.
 - **Benchmarking**: Comparison of Deepkriging with traditional kriging methods, demonstrating superior performance in both purely spatial cases and scenarios involving additional variables.
 
